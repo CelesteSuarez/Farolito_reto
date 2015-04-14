@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container, body{
+	width: 100%;
+	height: 100%;
+}
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0);
+  border-color: rgba(231, 231, 231, 0);
+}
+
+#home{
+  background-image:url(../assets/img/home.png);
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.principal{
+  padding:5%;
+}
+
+.logo{
+  width:32%;
+  margin: 0 auto;
+  top: 70%;
+  }
+
+.primertexto{
+  padding:15%;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+
+.frase{
+  width:80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  color: gray;
+  background-color: transparent;
+  border-color: gray;
+  }
+
+.btn-primary {
+  color: gray;
+  background-color: transparent;
+  border-color: gray;
+  }
+
+.button.text-center {
+  background-color: #FF6A49;
+  border-color: #FF6A49;
+  color: white;
+  padding: 2%;
+  border-radius: 25%;
+  width: 30%;
+  margin: 0 auto;
+  }
+
+  .flecha img{
+    border-radius: 50%;
+  }
+
+  .flecha {
+  position: absolute;
+  left: 45%;
+  margin: 0 auto;
+  top: 90%;
+  }
+  .frase h4{
+    line-height: 1.5;
+  }
+    
+/*Metodologia*/
