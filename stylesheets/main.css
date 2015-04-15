@@ -5533,6 +5533,9 @@ button.close {
 .text-white {
   color: #ecf0f1; }
 
+.text-red {
+  color: #FF6A49; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5551,26 +5554,27 @@ button.close {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
+  #home .principal {
+    padding: 5%; }
+  #home .logo {
+    width: 32%;
+    margin: 0 auto;
+    top: 70%; }
+  #home .primertexto {
+    padding: 15%; }
+  #home .row {
+    margin-left: 0px;
+    margin-right: 0px; }
+  #home .frase {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px; }
 
 .principal {
   padding: 5%; }
 
-.logo {
-  width: 32%;
-  margin: 0 auto;
-  top: 70%; }
-
-.primertexto {
-  padding: 15%; }
-
-.row {
-  margin-left: 0px;
-  margin-right: 0px; }
-
-.frase {
-  width: 80%;
-  margin: 0 auto;
-  padding: 5px; }
+.fondo {
+  width: 100%; }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: gray;
@@ -5586,23 +5590,72 @@ button.close {
   background-color: #FF6A49;
   border-color: #FF6A49;
   color: white;
-  padding: 2%;
-  border-radius: 25%;
+  padding: 14px;
+  border-radius: 20px;
   width: 30%;
   margin: 0 auto; }
-
-.flecha img {
-  border-radius: 50%; }
 
 .flecha {
   position: absolute;
   left: 45%;
   margin: 0 auto;
   top: 90%; }
+  .flecha img {
+    border-radius: 50%; }
 
 .frase h4 {
   line-height: 1.5; }
 
 /*Metodologia*/
+div#metodologia {
+  background-color: azure; }
+
+h2.text-center.text-celeste {
+  margin: 0 auto; }
+
+h3.text-center.text-gray {
+  margin: 0; }
+
+@media screen and (max-width: 480px) {
+  #home {
+    background-image: none; }
+    #home .logo {
+      width: 100%;
+      margin: 0; }
+      #home .logo img {
+        width: 100%; }
+    #home .primertexto {
+      padding: 0; }
+      #home .primertexto .frase {
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+    #home .button.text-center {
+      width: 100%; } }
+.postulantes {
+  background-image: url(../assets/img/02.png);
+  width: 100%;
+  height: 100%; }
+  .postulantes .title-postulantes {
+    padding: 60px; }
+
+/*Empresas*/
+.empresas {
+  width: 100%;
+  height: 100%; }
+  .empresas .title-empresas {
+    padding: 60px;
+    border-bottom: 2px dashed #FF6A49;
+    width: 50%;
+    margin: 0 auto; }
+    .empresas .title-empresas subtitulo {
+      width: 50%;
+      margin: 0 auto;
+      padding: 25px; }
+
+.imagen-logo {
+  margin: 0 auto;
+  width: 30%;
+  padding: 5%; }
 
 /*# sourceMappingURL=main.css.map */
