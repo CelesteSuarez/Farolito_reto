@@ -5536,6 +5536,12 @@ button.close {
 .text-red {
   color: #FF6A49; }
 
+.text-yellow {
+  color: #fcf07e; }
+
+.border {
+  border-radius: 50%; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5648,14 +5654,58 @@ h3.text-center.text-gray {
     border-bottom: 2px dashed #FF6A49;
     width: 50%;
     margin: 0 auto; }
-    .empresas .title-empresas subtitulo {
-      width: 50%;
+  .empresas .subtitulo {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px; }
+  .empresas .f-empresas {
+    margin-left: 0px;
+    margin-right: 0px; }
+    .empresas .f-empresas .imagen-logo {
       margin: 0 auto;
-      padding: 25px; }
+      width: 30%;
+      padding: 5%; }
+    .empresas .f-empresas .texto-proceso {
+      margin: 45px; }
 
-.imagen-logo {
-  margin: 0 auto;
-  width: 30%;
-  padding: 5%; }
+/*Educativo*/
+/*Falta anidar*/
+#educativo {
+  background-color: #77d248; }
+  #educativo .title-educativo {
+    padding: 60px;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 2px dashed #fcf07e; }
+
+.row.educativo {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.buttonverde {
+  padding: 12px 29px;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: 2px solid white;
+  width: 50%;
+  margin: 0 auto; }
+
+/*Oportunidades*/
+#oportunidades {
+  background-image: url(../assets/img/oportunidades.png);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 5%; }
+
+.hoja {
+  background-color: white;
+  min-height: 500px;
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto; }
+
+h2.text-center.text-gray {
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
