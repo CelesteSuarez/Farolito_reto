@@ -5548,12 +5548,27 @@ button.close {
   padding: 0; }
 
 .container, body {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
   border-color: rgba(231, 231, 231, 0); }
+
+/* unvisited link */
+a:link {
+  color: #FF0000; }
+
+/* visited link */
+a:visited {
+  color: #00FF00; }
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF; }
+
+/* selected link */
+a:active {
+  color: #0000FF; }
 
 #home {
   background-image: url(../assets/img/home.png);
@@ -5599,7 +5614,8 @@ button.close {
   padding: 14px;
   border-radius: 20px;
   width: 30%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 20%; }
 
 .flecha {
   position: absolute;
@@ -5680,7 +5696,11 @@ h3.text-center.text-gray {
 
 .row.educativo {
   margin-right: 0px;
-  margin-left: 0px; }
+  margin-left: 0px;
+  height: 60%; }
+
+p.text-center.text-white {
+  padding: 10%; }
 
 .buttonverde {
   padding: 12px 29px;
@@ -5697,18 +5717,16 @@ h3.text-center.text-gray {
   height: 100%;
   position: relative;
   padding-top: 5%; }
+  #oportunidades .hoja {
+    background-color: white;
+    min-height: 500px;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto; }
+    #oportunidades .hoja h2.text-center.text-gray {
+      margin: 0; }
 
-.hoja {
-  background-color: white;
-  min-height: 500px;
-  width: 80%;
-  padding: 20px;
-  margin: 0 auto; }
-
-h2.text-center.text-gray {
-  margin: 0; }
-
-li {
+li.text-gray {
   list-style: none; }
 
 /*Blog*/
@@ -5716,17 +5734,42 @@ li {
   padding-left: 0;
   padding-right: 0;
   padding: 0 15%; }
+  .row-blog .content-blog {
+    background-color: #eeeeee; }
+    .row-blog .content-blog p {
+      margin: 100px 0 10px;
+      padding: 50px; }
+  .row-blog img.persona.border.text-center {
+    position: absolute;
+    bottom: 255px;
+    left: 36%; }
+  .row-blog .button-celeste {
+    background-color: gray;
+    color: white; }
 
-.content-blog {
-  background-color: #bdc3c7; }
+.contenidoblog {
+  height: 70%; }
 
-p {
-  margin: 100px 0 10px;
-  padding: 50px; }
+/*Consulta*/
+.consulta {
+  width: 100%;
+  background-color: #eeeeee; }
+  .consulta .contactenos {
+    background-color: #eeeeee; }
+  .consulta form {
+    width: 30%;
+    margin: 0 auto; }
 
-img.persona.border.text-center {
-  position: absolute;
-  bottom: 255px;
-  left: 36%; }
+/*Footer*/
+footer {
+  background-color: #7f8c8d; }
+
+/*Nosotros*/
+#nosotros {
+  background-image: url(../assets/img/nosotros.png);
+  height: 500px;
+  width: 100%;
+  display: table;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
