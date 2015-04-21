@@ -5542,6 +5542,9 @@ button.close {
 .border {
   border-radius: 50%; }
 
+.subrayado {
+  border-bottom: 1px solid #ccc; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5806,5 +5809,8 @@ li {
   min-height: 50px;
   margin-bottom: 0;
   border: 1px solid transparent; }
+
+.losfundadores {
+  padding: 0 190px; }
 
 /*# sourceMappingURL=main.css.map */
