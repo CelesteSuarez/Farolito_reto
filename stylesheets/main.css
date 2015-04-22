@@ -5684,6 +5684,9 @@ h3.text-center.text-gray {
   .postulantes .title-postulantes {
     padding: 60px; }
 
+.parapostular {
+  padding: 0 200px; }
+
 /*Empresas*/
 .empresas {
   width: 100%;
