@@ -12,12 +12,17 @@
 .navbar {
   position: relative;
   min-height: 50px;
- margin-bottom: 0; 
+  margin-bottom: 0; 
   border: 1px solid transparent;
  }
   
  .losfundadores {
   padding: 0 190px;
+  margin-bottom: 40px;
+  }
+
+  .texto-face {
+  text-align: justify;
   }
 
   hr{
@@ -30,11 +35,56 @@
   	padding: 50px;
   }
 
+  .integrantes{
+    padding: 50px;
+  }
+
+
+/*rojo*/
+
+
   .rojo{
-  	background-color: #FF6A49;
+   background-color: #FF6A49;
   }
 
   .foco {
   width: 10%;
   margin: 0 auto;
+}
+
+.genio{
+  padding: 50px;
+}
+
+  h2.text-white{
+  line-height: 1.5;
+  }
+
+h2.text-white.text-center.subrayado {
+  padding: 40px;
+  }
+
+  .parrafo {
+  padding: 38px;
+  line-height: 2;
+  h5.text-white.text-center {
+  line-height: 2;
+  }
+}
+
+/*Lineas*/
+.subrayado{
+    border-bottom:2px dashed white;
+}
+
+.subrayadotop{
+  border-top: 2px dashed white;
+}
+
+.linea{
+  border-bottom: 2px dashed gray;
+}
+
+hr{
+  border:1px dashed gray;
 }

@@ -30,7 +30,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #0000FF;
+    color: #eee;
 }
 
 #home{
@@ -84,6 +84,12 @@ a:active {
   background-color: transparent;
   border-color: gray;
   }
+
+.btn-group > .btn:first-child {
+  margin-left: 0;
+  margin-top: 8px;
+  border-radius: 50%;
+}
 
 .button.text-center {
   background-color: #FF6A49;
@@ -151,7 +157,20 @@ h3.text-center.text-gray {
   }
 }
 
+.circulo-rojo{
+  background-color: #FF6A49;
+  width: 100%;
+  height: 100%;
+  .circle{
+    border-radius: 100%;
+    background-color: #FF6A49;
+    width: 100%;
+    height: 100%;
+  }
+}
 
+
+/*Postulantes*/
 .postulantes{
   background-image: url(../assets/img/02.png);
   width: 100%;
