@@ -5554,25 +5554,28 @@ button.close {
   width: 100%;
   height: 100%; }
 
+body {
+  font-family: Lato; }
+
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
   border-color: rgba(231, 231, 231, 0); }
 
 /* unvisited link */
 a:link {
-  color: #FF0000; }
+  color: white; }
 
 /* visited link */
 a:visited {
-  color: #00FF00; }
+  color: white; }
 
 /* mouse over link */
 a:hover {
-  color: #FF00FF; }
+  color: white; }
 
 /* selected link */
 a:active {
-  color: #eee; }
+  color: white; }
 
 #home {
   background-image: url(../assets/img/home.png);
@@ -5642,13 +5645,12 @@ a:active {
 
 /*Metodologia*/
 div#metodologia {
-  background-color: azure; }
-
-h2.text-center.text-celeste {
-  margin: 0 auto; }
-
-h3.text-center.text-gray {
-  margin: 0; }
+  background-color: white; }
+  div#metodologia h2.text-center.text-celeste {
+    margin: 0 auto;
+    padding: 60px; }
+    div#metodologia h2.text-center.text-celeste .subtitulo {
+      padding-bottom: 60px; }
 
 @media screen and (max-width: 480px) {
   #home {
@@ -5668,14 +5670,31 @@ h3.text-center.text-gray {
       width: 100%; } }
 .circulo-rojo {
   background-color: #FF6A49;
-  width: 100%;
-  height: 100%; }
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  padding: 2%; }
   .circulo-rojo .circle {
     border-radius: 100%;
-    background-color: #FF6A49;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    border: 2px dashed white; }
+    .circulo-rojo .circle .textocirculo {
+      font-size: 22px;
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 85px; }
 
+@media screen and (max-width: 480px) {
+  #metodologia {
+    background-image: none; }
+    #metodologia .circulo {
+      hidden: none; }
+      #metodologia .circulo img {
+        width: 100%; }
+    #metodologia .center h2 {
+      padding: 0 !important; } }
 /*Postulantes*/
 .postulantes {
   background-image: url(../assets/img/02.png);
@@ -5683,9 +5702,8 @@ h3.text-center.text-gray {
   height: 100%; }
   .postulantes .title-postulantes {
     padding: 60px; }
-
-.parapostular {
-  padding: 0 200px; }
+  .postulantes .parapostular {
+    padding: 0 150px; }
 
 /*Empresas*/
 .empresas {
@@ -5707,8 +5725,10 @@ h3.text-center.text-gray {
       margin: 0 auto;
       width: 30%;
       padding: 5%; }
-    .empresas .f-empresas .texto-proceso {
-      margin: 45px; }
+      .empresas .f-empresas .imagen-logo h2.text-center.text-gray {
+        padding: 0 !important; }
+      .empresas .f-empresas .imagen-logo .texto-proceso {
+        margin: 45px; }
 
 /*Educativo*/
 /*Falta anidar*/
@@ -5765,16 +5785,17 @@ li.text-gray {
     .row-blog .content-blog p {
       margin: 100px 0 10px;
       padding: 50px; }
-  .row-blog img.persona.border.text-center {
-    position: absolute;
-    bottom: 255px;
-    left: 36%; }
   .row-blog .button-celeste {
     background-color: gray;
     color: white; }
 
 .contenidoblog {
   height: 70%; }
+
+.row-blog img.persona.border.text-center {
+  position: absolute;
+  left: 36%;
+  top: 50px; }
 
 /*Consulta*/
 .consulta {
@@ -5806,13 +5827,8 @@ li {
     position: relative;
     bottom: 12px;
     left: 36%; }
-
-.categoria ul {
-  padding: 28px 21px; }
-
-.contenido row {
-  padding-right: 0;
-  padding-left: 0; }
+    .categoria img.border .categoria ul {
+      padding: 28px 21px; }
 
 /*Nosotros*/
 #nosotros {
@@ -5822,19 +5838,17 @@ li {
   width: 100%;
   display: table;
   background-size: cover; }
-
-.navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 0;
-  border: 1px solid transparent; }
+  #nosotros .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0 !important;
+    border: 1px solid transparent; }
 
 .losfundadores {
   padding: 0 190px;
   margin-bottom: 40px; }
-
-.texto-face {
-  text-align: justify; }
+  .losfundadores .texto-face {
+    text-align: justify; }
 
 hr {
   color: gray;
@@ -5847,6 +5861,16 @@ h2.text-center.text-gray {
 .integrantes {
   padding: 50px; }
 
+@media screen and (max-width: 480px) {
+  #nosotros {
+    background-image: url(../assets/img/nosotros.png);
+    background-repeat: no-repeat;
+    width: 100%; }
+    #nosotros .logo {
+      width: 100%;
+      margin: 0; }
+      #nosotros .logo img {
+        width: 100%; } }
 /*rojo*/
 .rojo {
   background-color: #FF6A49; }
