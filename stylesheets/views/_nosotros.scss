@@ -1,5 +1,6 @@
 /*Nosotros*/
 
+
 #nosotros {
   background: url(../assets/img/nosotros.png); 
   background-repeat:no-repeat;
@@ -8,13 +9,28 @@
   display: table;
   background-size: cover;
     .navbar {
-      position: relative;
-      min-height: 50px;
-      margin-bottom: 0 !important; 
-      border: 1px solid transparent;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0 !important; 
+    border: 1px solid transparent;
   }
 
  }
+.nosotros-navbar{
+   margin-bottom:0;
+   background-color: aliceblue;
+}
+
+
+img.img-responsive.border.relative {
+  width: 5%;
+  margin: 0 auto;
+  bottom: 25px;
+  }
+
+div#bs-example-navbar-collapse-1 {
+  padding-bottom: 7px;
+  }
 
   .losfundadores {
     padding: 0 190px;
