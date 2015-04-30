@@ -5834,6 +5834,28 @@ img.flecha4.border.relative {
     #oportunidades .hoja h2.text-center.text-gray {
       margin: 0; }
 
+.buton {
+  display: inline-block;
+  position: relative;
+  left: 85%;
+  font-size: 1rem;
+  border-radius: 14px;
+  border: 2px solid #FF6A49;
+  width: 10%;
+  /* text-align: center; */
+  color: #FF6A49;
+  padding: 5px;
+  border-radius: 14px;
+  bottom: 40px; }
+
+hr.separador {
+  width: 100%;
+  border: 1px dashed gray; }
+
+.seccion-oportunidades {
+  margin-left: 100px;
+  margin-right: 100px; }
+
 li.text-gray {
   list-style: none; }
 
