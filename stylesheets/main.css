@@ -5727,6 +5727,10 @@ div#metodologia {
   .postulantes .parapostular {
     padding: 0 150px; }
 
+img.flecha7.border.relative {
+  bottom: 152px;
+  left: 44%; }
+
 @media screen and (max-width: 480px) {
   #postulantes {
     background-image: url(../assets/img/02.png);
@@ -5751,7 +5755,7 @@ img.border {
   width: 100%;
   height: 100%; }
   .empresas .title-empresas {
-    padding: 60px;
+    padding: 20px;
     border-bottom: 2px dashed #FF6A49;
     width: 50%;
     margin: 0 auto; }
@@ -5848,7 +5852,7 @@ li.text-gray {
   list-style: none; }
 
 img.flecha5.border.relative {
-  top: 120px;
+  bottom: 55px;
   left: 660px; }
 
 /*Blog section*/
